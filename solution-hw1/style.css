@@ -1,0 +1,207 @@
+/* TEXT STYLING */
+/* All text on every page is here */
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+/* Used for the page headings */
+h3 {
+    text-align: center;
+    font-weight: 200;
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+/* In-line text for the cart page */
+#detailText {
+    word-wrap: break-word;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Remove text on the cart*/
+.remove {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    padding-bottom: 12px;
+}
+
+/* Pricing text in the cart */
+.price {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+
+/* INPUT STYLING */
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    cursor:pointer;
+    
+}
+
+button:hover {
+    background-color: yellow;
+    font-weight: 700;
+}
+
+/* inputs for nav selected */
+.selected {
+    background-color:yellow;
+    font-weight: 700;
+}
+
+.dropdown {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+}
+
+/* inputs for details page */
+select {
+    width: 200px;
+    height: 32px;
+    border: 2px solid #000000;
+    text-align: left;
+}
+
+/* PRODUCTS */
+.listItem {
+    height: auto;
+    width: 296px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    font-size: 16pt;
+}
+
+/* Image found within the products */
+.listItem img {
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    border: 2px solid #000000;
+}
+
+/* p found within the products */
+.listItem p {
+    display:inline-block;
+    width: 292px;
+    color:#000000;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.listItem:hover {
+    background-color: yellow;
+}
+
+.listItem:hover .itemName{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+/* DETAIL */
+#productImage {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+/* CART */
+#buy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#buy button, .total button {
+    display: inline;
+    background-color: yellow;
+    font-weight: 700;
+    border: 2px solid #000000;
+    text-transform:capitalize;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#buy p{
+    display: inline;
+}
+
+.cartLine {
+    width: 50%;
+}
+
+/* Items in the cart */
+.cartItem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+
+/* Images in the cart */
+.cartItem img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartItem p {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Total for cart page */
+.total {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Nav */
+.logo {
+    width: 400px;
+}
+
+hr {
+    background-color: black;
+    height: 4px;
+}
