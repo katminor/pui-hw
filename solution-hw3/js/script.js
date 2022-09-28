@@ -91,5 +91,5 @@ function generateOptions() {
     document.getElementById("pack-select").addEventListener("change", updatePrice)
 }
 
-// Generates the dropdown options when the page loads.
+// Generates the dropdown options and manages the price when the page loads.
 document.addEventListener("DOMContentLoaded", generateOptions)
