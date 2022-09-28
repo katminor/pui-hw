@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Original Cinnamon Roll Details | Bun Bun Bake Shop</title>
+        <script src="js/script.js" ></script>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <div id="pageNavigation">
+            <a href="./index.html" id="logo">
+                <img class="logo" src="logo/logo-01.svg" alt="The Bun Bun Bakeshop Logo. It is a cinnamon bun drawn in black and white.">
+            </a>
+            <div id="rightNav">
+                <nav id="navButtons">
+                    <button type="button" id="navProducts" class="selected"><a href="./index.html">Products</a></button>
+                    <button type="button" id="navCart"><a href="./cart.html">Cart</a></button>
+                </nav>
+                <hr />
+                <h3 id="navHeading">Original cinnamon roll</h3>
+            </div>
+        </div>
+        <main id="productLayout">
+            <img id="productImage" src="./products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll Image">
+            <div id="productDescription">
+                <p class="detailText">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+                <div class="dropdown">
+                    <p class="detailText">Glazing:</p>
+                    <select name="glazing" id="glazing-select">
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <p class="detailText">Pack size:</p>
+                    <select name="pack-size" id="pack-select">
+                    </select>
+                </div>
+                <div id="buy">
+                    <p id="update-price">$2.49</p>
+                    <button type="button" class="addToCart">Add to cart</button>
+                </div>
+            </div>
+        </main>
+    </body> 
