@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cart | Bun Bun Bake Shop</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <div id="page-navigation">
+            <a href="./index.html" id="logo">
+                <img class="logo" src="logo/logo-01.svg" alt="The Bun Bun Bakeshop Logo. It is a cinnamon bun drawn in black and white.">
+            </a>
+            <div id="right-nav">
+                <nav id="nav-buttons">
+                    <button type="button" id="nav-products"><a href="./index.html">Products</a></button>
+                    <button type="button" id="nav-cart" class="selected"><a href="./cart.html">Cart</a></button>
+                </nav>
+                <hr />
+                <h3 id="nav-heading">Shopping Cart</h3>
+            </div>
+        </div>
+        <main id="cart">
+            <div class="item">
+                <div class="cart-item">
+                    <div class="cart-image">
+                        <img src="./products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+                        <p class="remove">Remove</p>
+                    </div>
+                    <div class="cart-description">
+                        <p>Original Cinnamon Roll</p>
+                        <p>Glazing: Keep original</p>
+                        <p>Pack size: 1</p>
+                    </div>
+                </div>
+                <p class="price-item">$2.49</p>
+            </div>
+            <div class="item">
+                <div class="cart-item">
+                    <div class="cart-image">
+                        <img src="./products/double-chocolate-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+                        <p class="remove">Remove</p>
+                    </div>
+                    <div class="cart-description">
+                        <p>Double Chocolate Cinnamon Roll</p>
+                        <p>Glazing: Sugar milk</p>
+                        <p>Pack size: 6</p>
+                    </div>
+                </div>
+                <p class="price-item">$27.45</p>
+            </div>
+            <hr class="cart-line"/>
+            <div class="total">
+                <div id="total-cost">
+                    <p class="cart-price">Total:</p>
+                    <p class="cart-price">29.94</p>
+                </div>
+                <button id="checkout">Checkout</button>
+            </div>
+            </main>
+        </body> 
+
+</html>
