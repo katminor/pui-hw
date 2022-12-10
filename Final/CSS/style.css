@@ -1,0 +1,430 @@
+html,body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
+a {
+    color: #2C2C2C;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#1261B7;
+    font-weight: 1000;
+    text-decoration: underline;
+    transition: all 0.5s ease-out;
+} 
+
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* Nav */ 
+#navigation {
+    font-family: "Oswald", sans-serif;;
+    color: #2C2C2C;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+    margin-top: 12px;
+}
+
+.logo-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navigation-left {
+    display: flex;
+    font-size: 36px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    min-width: 400px;
+}
+
+#navigation-right {
+    display: flex;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.navigation-text {
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+
+/* Preview on Home*/ 
+#home-carousel {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 100%;
+}
+
+#myCarousel img{
+    min-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.arrow-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #FFF0FD; 
+    align-items: center;
+    
+}
+
+.arrow {
+    max-width: 50%;
+    min-width: 40px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    filter: invert(79%) sepia(87%) saturate(1306%) hue-rotate(281deg) brightness(113%) contrast(107%)
+}
+
+#preview-image {
+    max-width: 50%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0; 
+}
+
+/* Projects on Home */ 
+
+.project {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    max-height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+#grapevine:hover {
+    background-color:#159167;
+    color: white;
+    cursor:pointer;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+#drift:hover {
+    background-color: #1261B7;
+    color: white;
+    cursor:pointer
+}
+
+#mlb:hover {
+    background-color: #FFB722;
+    color: black;
+    cursor:pointer
+}
+
+#grapevine-button a, #drift-button a, #mlb-button a{
+    color:white;
+    font-family: "Raleway", sans-serif;
+}
+
+#grapevine-button a:hover, #drift-button a:hover, #mlb-button a:hover{
+    color:white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+}
+
+.project-image {
+    display: flex;
+    max-width: 100%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-description {
+    display: inline-block;
+    width: 50%;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-subtitle {
+    display: block;
+    font-size: 12px;
+    width: 50%;
+    height: auto;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-content {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+}
+
+#grapevine .project-description, #mlb .project-description {
+    margin-right: 80px;
+}
+
+#grapevine, #mlb {
+    padding-left: 40px;
+}
+
+#drift .project-description {
+    margin-left: 80px;
+}
+
+#drift {
+    padding-right: 40px;
+}
+
+.project-button{
+    display:inline-block;
+    padding: 8px 16px;
+    font-size: 24px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    margin:0px 24px 24px 0px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:1000;
+    text-align:center;
+    transition: all 0.2s;
+    text-transform: uppercase;
+}
+
+.project-button:hover{
+    color:#FFFFFF;
+    font-size: 28px;
+    margin-top: -4px;
+    }
+    @media all and (max-width:30em){
+    .project-button{
+    display: block;
+    margin: 0px auto;
+    }
+}
+
+#grapevine-button {
+    background-color: #159167;
+}
+
+#drift-button {
+    background-color: #1261B7;
+}
+
+#mlb-button {
+    background-color: #FFB722;
+}
+
+/* Numbers on Home */
+.number-container {
+    width: 40%;
+    align-content: center;
+    display: flex;
+}
+
+#grapevine-number {
+    background-color: #159167;
+}
+
+#drift-number {
+    background-color: #1261B7;
+}
+
+#mlb-number {
+    background-color: #FFB722;
+}
+
+.number {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#grapevine .number-container, #mlb .number-container {
+    margin-left: 80px;
+}
+
+#drift .number-containern {
+    margin-right: 80px;
+}
+
+/* Project Cards */
+.project-card {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 2%;
+}
+
+.project-img {
+    display: inline;
+    max-width: 200px;
+    max-height:auto;
+}
+
+.personal-img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 10%;
+}
+
+#next-step-images .project-card-images {
+    display: block;
+    height: 500px;
+    width: 80%;
+}
+
+#next-step-images .project-card-images img{
+    margin-right: 2%;
+}
+
+.project-card-heading {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 300px;
+    height: auto;
+}
+
+.project-card-description {
+    display: block;
+    width: 300px;
+    height: fit-content;
+}
+
+#card-description {
+    margin-top: 20%;
+}
+
+#mlb-screens {
+    margin-bottom: -24px;
+}
+
+#mlb-screens img {
+    max-width: 48%;
+    max-height: 48%;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+}
+
+.across {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.across-images {
+    display: flex;
+    height: auto;
+    width: fit-content;
+    justify-content: space-between;
+    gap: .5%;
+    margin-top: 0px;
+    margin-bottom: -55%;
+}
+
+.across-images img {
+    max-width: 39%;
+    max-height: 39%;
+    width: fit-content;
+    display: inline-block;
+}
+
+/* Carousel */
+#grapevine-slideshow{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Footer */
+
+#footer {
+    font-family: "Oswald", sans-serif;;
+    color: #2C2C2C;
+    display: flex;
+    height: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#footer-left {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 257.33px;
+}
+
+#footer-right {
+    display: flex;
+    font-size: 16px;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+#footer-logo {
+    width: 32px;
+    height: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 24px;
+}
