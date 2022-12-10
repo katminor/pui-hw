@@ -86,7 +86,7 @@ p {
 }
 
 
-/* Preview on Home*/ 
+/* Carousel */ 
 #home-carousel {
     display: block;
     margin-left: 0px;
@@ -153,13 +153,17 @@ p {
 #drift:hover {
     background-color: #1261B7;
     color: white;
-    cursor:pointer
+    cursor:pointer;
+    font-weight: 200;
+    text-decoration: none;
 }
 
 #mlb:hover {
     background-color: #FFB722;
     color: black;
-    cursor:pointer
+    cursor:pointer;
+    font-weight: 200;
+    text-decoration: none;
 }
 
 #grapevine-button a, #drift-button a, #mlb-button a{
@@ -220,46 +224,6 @@ p {
 
 #drift {
     padding-right: 40px;
-}
-
-.project-button{
-    display:inline-block;
-    padding: 8px 16px;
-    font-size: 24px;
-    border: 0px solid #FFFFFF;
-    color: white;
-    margin:0px 24px 24px 0px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-weight:1000;
-    text-align:center;
-    transition: all 0.2s;
-    text-transform: uppercase;
-}
-
-.project-button:hover{
-    color:#FFFFFF;
-    font-size: 28px;
-    margin-top: -4px;
-    }
-    @media all and (max-width:30em){
-    .project-button{
-    display: block;
-    margin: 0px auto;
-    }
-}
-
-#grapevine-button {
-    background-color: #159167;
-}
-
-#drift-button {
-    background-color: #1261B7;
-}
-
-#mlb-button {
-    background-color: #FFB722;
 }
 
 /* Numbers on Home */
@@ -383,12 +347,6 @@ p {
     display: inline-block;
 }
 
-/* Carousel */
-#grapevine-slideshow{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
 /* Footer */
 
 #footer {
@@ -427,4 +385,11 @@ p {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 24px;
+}
+
+/* Grapevine Carousel */
+#grapevine-slideshow{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
