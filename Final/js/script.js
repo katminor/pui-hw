@@ -62,7 +62,7 @@ class grapevineIsland extends HTMLElement {
                     </div>
                     <div class="project-image">
                         <img src="Images/Home/Grapevine.svg" class="project-image" alt="An image representing the
-                        Grapevine Project. It is an island with Vinny and Viney, the mascot.">
+                        Grapevine Project with mascots Vinny and Viney.">
                     </div>
                 </div>
                 <div class="number-container" id="grapevine-number">
