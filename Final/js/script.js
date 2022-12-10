@@ -29,7 +29,7 @@ class footer extends HTMLElement {
                 <div id="footer-left">
                     <a href="index.html">
                         <div id="footer-left">
-                            <img src="Images/Logo.png" alt="Logo for Kat Minor Site" id="footer-logo">
+                            <img src="Images/Logo.png" id="footer-logo" alt="Logo for Kat Minor Site">
                             <h1 class="logo-text">Kat Minor</h1>
                         </div>
                     </a>
@@ -61,7 +61,7 @@ class grapevineIsland extends HTMLElement {
                             and call each other whenever they wish.</p>
                     </div>
                     <div class="project-image">
-                        <img src="Images/Home/Grapevine.svg" alt="Image of the Grapevine Dating Project" class="project-image" alt="An image representing the
+                        <img src="Images/Home/Grapevine.svg" class="project-image" alt="An image representing the
                         Grapevine Project.">
                     </div>
                 </div>
@@ -123,11 +123,11 @@ class mlbIsland extends HTMLElement {
                             team.</p>
                     </div>
                     <div class="project-image">
-                        <img src="Images/Home/MLB.svg" alt="Image representative of my work on MLB The Show" class="project-image">
+                        <img src="Images/Home/MLB.svg" class="project-image" alt="Image representative of my work on MLB The Show">
                     </div>
                 </div>
                 <div class="number-container" id="mlb-number">
-                    <img src="Images/Home/3.svg" class="number">
+                    <img src="Images/Home/3.svg" class="number" alt="The number 3">
                 </div>
             </div>
         </a>`;
