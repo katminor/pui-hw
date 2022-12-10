@@ -62,7 +62,7 @@ class grapevineIsland extends HTMLElement {
                     </div>
                     <div class="project-image">
                         <img src="Images/Home/Grapevine.svg" class="project-image" alt="An image representing the
-                        Grapevine Project.">
+                        Grapevine Project. It is an island with Vinny and Viney, the mascot.">
                     </div>
                 </div>
                 <div class="number-container" id="grapevine-number">
@@ -86,7 +86,7 @@ class driftIsland extends HTMLElement {
                 </div>
                 <div class="project-content">
                 <div class="project-image">
-                    <img src="Images/Home/Drift.svg" alt="Image representative of my work at Drift" class="project-image">
+                    <img src="Images/Home/Drift.svg" alt="Image representative of my work at Drift, it is mobile screens" class="project-image">
                 </div>
                 <div class="project-description">
                     <h2 class="project-heading">Drift</h2>
@@ -123,7 +123,7 @@ class mlbIsland extends HTMLElement {
                             team.</p>
                     </div>
                     <div class="project-image">
-                        <img src="Images/Home/MLB.svg" class="project-image" alt="Image representative of my work on MLB The Show">
+                        <img src="Images/Home/MLB.svg" class="project-image" alt="Image representative of my work on MLB The Show, a Baseball field">
                     </div>
                 </div>
                 <div class="number-container" id="mlb-number">
